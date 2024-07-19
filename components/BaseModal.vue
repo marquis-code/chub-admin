@@ -1,6 +1,6 @@
 <template>
-    <div v-if="show" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center z-50 items-center p-4">
-        <div class="bg-white rounded-3xl shadow-lg p-5 max-w-xl w-full m-auto">
+    <div v-if="show" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4">
+        <div class="bg-white rounded-3xl shadow-lg p-5 max-w-lg w-full m-auto">
             <button @click="closeModal" class="float-right text-xl font-semibold">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_7596_1365" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="24"
